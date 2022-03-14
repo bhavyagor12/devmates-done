@@ -12,11 +12,6 @@ const Firework = () => {
       min: 15,
       max: 15,
     },
-    mouse: {
-      click: true,
-      move: false,
-      max: 1,
-    },
     boundaries: {
       visible: false,
     },
