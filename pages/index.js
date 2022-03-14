@@ -5,7 +5,7 @@ import Particle from "../components/Particles";
 import Firework from "../components/Firework";
 export default function Home() {
   return (
-    <div className=" min-h-screen bg-[#032A5D] text-center">
+    <div className=" min-h-screen bg-black text-center">
       <Title
         title="Devmates"
         name="welcome page"
@@ -13,6 +13,11 @@ export default function Home() {
       />
       <Firework />
       <Particle />
+      <center>
+        <div className="grid place-items-center h-screen">
+          <div className="flex flex-direction-column text-white"></div>
+        </div>
+      </center>
     </div>
   );
 }
