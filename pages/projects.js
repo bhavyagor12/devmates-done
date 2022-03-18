@@ -1,13 +1,12 @@
-import React from "react";
-import Title from "../components/Title";
 import Navbar from "../components/Navbar";
-const profile = () => {
+import Title from "../components/Title";
+const projects = () => {
   return (
     <div className="min-h-screen bg-[#0082EF] dark:bg-[#032A5D]">
-      <Title title="Profile" />
+      <Title title="Projects" />
       <Navbar />
     </div>
   );
 };
 
-export default profile;
+export default projects;

@@ -4,7 +4,7 @@ import Title from "../components/Title";
 import Particle from "../components/Particles";
 import Firework from "../components/Firework";
 import Link from "next/link";
-export default function Home() {
+export default function welcome() {
   return (
     <div className=" min-h-screen bg-[#0082EF] dark:bg-[#032A5D]  text-center">
       <Title
