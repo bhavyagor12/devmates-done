@@ -32,7 +32,7 @@ export default function welcome() {
               </div>
             </div>
             <button class="font-semi rounded-full  bg-white dark:bg-[#18181b] py-2 px-4 text-xl text-[#0082EF] hover:bg-[#032A5D] hover:text-white  dark:hover:bg-white dark:hover:text-[#0082EF]">
-              <Link href="/login">Get Started</Link>
+              <Link href="/home">Get Started</Link>
             </button>
           </div>
         </div>
